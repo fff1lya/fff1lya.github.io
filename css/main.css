@@ -146,7 +146,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 .container {
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 0 90px repeat(4, 400px) 90px 450px 90px 400px;
     grid-row-gap: 2em;
     margin: 0 auto;
     max-width: 1140px;
